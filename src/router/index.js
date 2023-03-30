@@ -1,6 +1,8 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Dasboard from '../views/DashboardView.vue'
+import verView from '../views/verView.vue'
+import crud from '../views/CrudView.vue'
 
 const routes = [
   {
@@ -27,6 +29,17 @@ const routes = [
         path:'/HomeView',
         name: HomeView,
         component: () => import('../views/vistaView.vue'),
+      },
+      {
+        path:'/Ver',
+        name:verView,
+        component: () => import('../views/verView.vue')
+      },
+      {
+        path:'/crud',
+        name:crud,
+        component: () => import('../views/CrudView.vue')
+
       }
     ]
 

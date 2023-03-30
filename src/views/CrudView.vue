@@ -1,17 +1,14 @@
 <template>
-  <main>
-   <div>
-    
-   </div>
-  </main>
+    <main>
+<h1>Crud</h1>
+    </main>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+    name:'CrudView'
 }
 </script>
-
 <style scoped>
 
 </style>

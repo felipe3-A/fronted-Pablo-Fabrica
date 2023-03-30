@@ -1,14 +1,15 @@
 <template>
     <div class="contenedor">
-        <galeria-component />
+       <crud-component />
     </div>
 
 </template>
 <script>
-import galeriaComponent from '../components/galeriaComponent.vue'
+import CrudComponent from '@/components/CrudComponent.vue'
+
 
 export default {
-  components: { galeriaComponent },
+  components: {CrudComponent  },
     
 }
 

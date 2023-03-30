@@ -7,23 +7,27 @@
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  text-decoration-line: none;
   color: #000000;
 }
-
+a:link{
+color: red;
+}
 nav {
   padding: 30px;
 }
 
 nav a {
   font-weight: bold;
-  color: #012850;
+  color: #ffffff;
 }
 
 nav a.router-link-exact-active {
-  color: #ffd000;
+  color: #000000;
+
+}
+a.router-link{
+  color: red;
 }
 </style>

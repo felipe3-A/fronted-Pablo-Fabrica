@@ -1,7 +1,10 @@
 <template>
     <div>
-        <h1>Dasboard</h1>
-        <cueerpo-component />
+     
+        <div>
+             <cueerpo-component /> 
+        </div>
+      
     </div>
 </template>
 <script>
